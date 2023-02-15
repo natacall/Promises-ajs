@@ -1,6 +1,6 @@
-import json from './parser.js';
-import read from './reader.js';
-import GameSaving from './gameSaving.js';
+import json from './parser';
+import read from './reader';
+import GameSaving from './gameSaving';
 
 let save = new GameSaving();
 export default class GameSavingLoader {

@@ -1,4 +1,4 @@
-import GameSavingLoader from './js/app.js';
+import GameSavingLoader from '../app';
 
 test('correct promise', () => {
   const standart = {
